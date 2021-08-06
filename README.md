@@ -4,7 +4,7 @@
 
 # Learn more at [brolgar.njtierney.com](http://brolgar.njtierney.com/)
 
-# Slides available [here](https://njt-jsm21.netlify.com/)
+# Slides available [here](https://njt-jsm21.netlify.app/)
 
 # Take home messages
 
