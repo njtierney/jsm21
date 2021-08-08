@@ -1,6 +1,6 @@
 # Tangling is easy but untangling is hard. Some advice on exploratory data analysis for longitudinal data
 
-[![Netlify Status]()]()
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cc869068-6fe9-4b73-8897-5b312dfaa241/deploy-status)](https://app.netlify.com/sites/njt-jsm21/deploys)
 
 # Learn more at [brolgar.njtierney.com](http://brolgar.njtierney.com/)
 

@@ -23,23 +23,6 @@ output:
 ---
 
 
-# .large[Tangling is easy. Untangling is hard]
-
-<br> <br>
-
-## Nicholas Tierney
-## Telethon Kids Institute
-## JSM, 2021
-
-`r icons::fontawesome(name = 'link', 'solid')` **bit.ly/njt-jsm21** 
-
-`r icons::fontawesome$brands$twitter` **nj_tierney**
-
----
-
-layout: true
-<div class="my-footer"><span>bit.ly/njt-jsm21 • @nj_tierney</span></div> 
-
 ```{r setup, include=FALSE}
 # options(htmltools.dir.version = FALSE, width = 120)
 # NOTE TO SELF: The CSS styles were created in `create-njt-theme.R`
@@ -149,6 +132,24 @@ plot_heights <- function(data){
 
 gg_heights <- plot_heights(heights)
 ```
+
+
+# .large[Tangling is easy. Untangling is hard]
+
+<br> <br>
+
+## Nicholas Tierney
+## Telethon Kids Institute, Perth, Australia
+## JSM, 2021
+
+`r icons::icon_style(icons::fontawesome(name = 'link', 'solid'), fill = nipa$purple)` **bit.ly/njt-jsm21** 
+
+`r icons::icon_style(icons::fontawesome$brands$twitter, fill = nipa$purple)` **nj_tierney**
+
+---
+
+layout: true
+<div class="my-footer"><span>bit.ly/njt-jsm21 • @nj_tierney</span></div> 
 
 ---
 class: middle, center, inverse
@@ -290,7 +291,7 @@ class: center, bottom, white
 # Problems:
 
 .large.pull-left[
-`r icons::fontawesome("layer-group", "solid")` Overplotting
+`r icons::icon_style(icons::fontawesome("layer-group", "solid"), fill = nipa$purple)` Overplotting
 
 🙈 We don't see the individuals
 
@@ -800,7 +801,7 @@ gg_heights +
 # `facet_strata()`: See **all** individuals
 
 ```{r print-gg-facet-strata}
-set.seed(2020-01-29)
+set.seed(2021-08-08)
 gg_strata <- gg_heights +  facet_strata()
 gg_strata
 ```
@@ -903,7 +904,7 @@ include_graphics("imgs/car-hood-small.jpg")
 ]
 
 .pull-right.large[
-`r icons::fontawesome$solid$bolt` with `sample_n_keys()` & `stratify_keys()`
+`r icons::icon_style(icons::fontawesome$solid$bolt, fill = nipa$purple)` with `sample_n_keys()` & `stratify_keys()`
 
 You can still get at data and do manipulations
 ]
@@ -1506,13 +1507,13 @@ heights_sample + geom_point(aes(y = height_cm))
 # Future Directions
 
 .large[
-`r icons::fontawesome("mortar-pestle", "solid")` More features (summaries)
+`r icons::icon_style(icons::fontawesome("mortar-pestle", "solid"), fill = nipa$purple)` More features (summaries)
 
-`r icons::fontawesome$solid$binoculars` Generalise beyond longitudinal data 
+`r icons::icon_style(icons::fontawesome$solid$binoculars, fill = nipa$purple)` Generalise beyond longitudinal data 
 
-`r icons::fontawesome$solid$compass` Explore stratification process
+`r icons::icon_style(icons::fontawesome$solid$compass, fill = nipa$purple)` Explore stratification process
 
-`r icons::fontawesome$solid$code` Work with `dplyr::across()` & `dplyr::pick()`
+`r icons::icon_style(icons::fontawesome$solid$code, fill = nipa$purple)` Work with `dplyr::across()` & `dplyr::pick()`
 ]
 
 ---
@@ -1543,13 +1544,13 @@ heights_sample + geom_point(aes(y = height_cm))
 # Resources
 
 .large[
-`r icons::fontawesome(name = "box-open", "solid")` [feasts](http://feasts.tidyverts.org/)
+`r icons::icon_style(icons::fontawesome(name = "box-open", "solid"), fill = nipa$purple)` [feasts](http://feasts.tidyverts.org/)
 
-`r icons::fontawesome(name = "box-open", "solid")` [tsibble](http://tsibble.tidyverts.org/)
+`r icons::icon_style(icons::fontawesome(name = "box-open", "solid"), fill = nipa$purple)` [tsibble](http://tsibble.tidyverts.org/)
 
-`r icons::fontawesome$solid$newspaper` [Time series graphics using feasts](https://robjhyndman.com/hyndsight/feasts/)
+`r icons::icon_style(icons::fontawesome$solid$newspaper, fill = nipa$purple)` [Time series graphics using feasts](https://robjhyndman.com/hyndsight/feasts/)
 
-`r icons::fontawesome$solid$newspaper` [Feature-based time series analysis](https://robjhyndman.com/hyndsight/fbtsa/)
+`r icons::icon_style(icons::fontawesome$solid$newspaper, fill = nipa$purple)` [Feature-based time series analysis](https://robjhyndman.com/hyndsight/fbtsa/)
 ]
 
 ---
@@ -1557,17 +1558,17 @@ heights_sample + geom_point(aes(y = height_cm))
 # Colophon
 
 .medium[
-`r icons::fontawesome(name = "layer-group", "solid")` Slides made using [xaringan](https://github.com/yihui/xaringan)
+`r icons::icon_style(icons::fontawesome(name = "layer-group", "solid"), fill = nipa$purple)` Slides made using [xaringan](https://github.com/yihui/xaringan)
 
-`r icons::fontawesome$solid$seedling` Extended with [xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+`r icons::icon_style(icons::fontawesome$solid$seedling, fill = nipa$purple)` Extended with [xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
 
-`r icons::fontawesome$solid$palette` Colours modified from [ochRe::lorikeet](https://github.com/ropenscilabs/ochRe)
+`r icons::icon_style(icons::fontawesome$solid$palette, fill = nipa$purple)` Colours modified from [ochRe::lorikeet](https://github.com/ropenscilabs/ochRe)
 
-`r icons::fontawesome(name = "text-height", "solid") ` Header font is **Josefin Sans**
+`r icons::icon_style(icons::fontawesome(name = "text-height", "solid"), fill = nipa$purple) ` Header font is **Josefin Sans**
 
-`r icons::fontawesome(name = "text-height", "solid") ` Body text font is **Montserrat**
+`r icons::icon_style(icons::fontawesome(name = "text-height", "solid"), fill = nipa$purple) ` Body text font is **Montserrat**
 
-`r icons::fontawesome$solid$code` Code font is **Fira Mono**
+`r icons::icon_style(icons::fontawesome$solid$code, fill = nipa$purple)` Code font is **Fira Mono**
 ]
 
 ---
@@ -1575,15 +1576,15 @@ heights_sample + geom_point(aes(y = height_cm))
 # Learning more
 
 .large[
-`r icons::fontawesome(name = "box-open", "solid") ` [brolgar.njtierney.com](http://brolgar.njtierney.com/)
+`r icons::icon_style(icons::fontawesome(name = "box-open", "solid"), fill = nipa$purple) ` [brolgar.njtierney.com](http://brolgar.njtierney.com/)
 
-`r icons::fontawesome$solid$link` [bit.ly/njt-jsm21](https://bit.ly/njt-jsm21)
+`r icons::icon_style(icons::fontawesome$solid$link, fill = nipa$purple)` [bit.ly/njt-jsm21](https://bit.ly/njt-jsm21)
 
-`r icons::fontawesome$brands$twitter` nj_tierney
+`r icons::icon_style(icons::fontawesome$brands$twitter, fill = nipa$purple)` nj_tierney
 
-`r icons::fontawesome$brands$github` njtierney
+`r icons::icon_style(icons::fontawesome$brands$github, fill = nipa$purple)` njtierney
 
-`r icons::fontawesome(name = "paper-plane", "solid")` nicholas.tierney@gmail.com
+`r icons::icon_style(icons::fontawesome(name = "paper-plane", "solid"), fill = nipa$purple)` nicholas.tierney@gmail.com
 
 ]
 
