@@ -58,9 +58,8 @@ This talk discusses new methods for identifying interesting individuals to bette
 
 # bio
 
-Dr. Nicholas Tierney (PhD. Statistics, BPsySci (Honours)) is a Research Software Engineer at the [Telethon Kids Institute](https://www.telethonkids.org.au/), working with [Professor Nick Golding](https://www.telethonkids.org.au/contact-us/our-people/g/nick-golding/). He was previously a Lecturer in Business Analytics and Statistics at Monash University, working with Professors
-[Dianne Cook](http://dicook.org/) and [Rob Hyndman](https://robjhyndman.com/). 
-His research aims to improve data analysis
+Dr. Nicholas Tierney (PhD. Statistics, BPsySci (Honours)) is a Research Software Engineer at the [Telethon Kids Institute](https://www.telethonkids.org.au/), working with [Professor Nick Golding](https://www.telethonkids.org.au/contact-us/our-people/g/nick-golding/), working on the [greta package for statistical modelling](https://greta-stats.org/). He was previously a Lecturer in Business Analytics and Statistics at Monash University, working with Professor
+[Dianne Cook](http://dicook.org/). His research aims to improve data analysis
 workflow, and make data analysis more accessible.
 
 Nick is a member of the [rOpenSci](https://ropensci.org/) collective, which works to make science open using R, has been the lead organiser for the rOpenSci ozunconf
