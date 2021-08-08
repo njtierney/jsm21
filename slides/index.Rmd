@@ -140,7 +140,7 @@ gg_heights <- plot_heights(heights)
 
 ## Nicholas Tierney
 ## Telethon Kids Institute, Perth, Australia
-## JSM, 2021
+## JSM, 9th Aug, 2021
 
 `r icons::icon_style(icons::fontawesome(name = 'link', 'solid'), fill = nipa$purple)` **bit.ly/njt-jsm21** 
 
